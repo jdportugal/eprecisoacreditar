@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	background: #f6f6f6;
+	color: black;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+/* NAV */
+
+.nav-container {
+	background-color: #931818;
+	width: 100%;
+}
+
+.main-nav {
+	display: flex;
+	float: center;
+	align-items: center;
+	height: 8vh;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+	color: #ffbc00;
+}
+
+.logo {
+	display: flex;
+	float: center;
+	align-items: center;
+}
+.logo h1 {
+	padding: 0 10px;
+}
+
+.giant-font {
+	font-size: 6vh;
+	font-weight: 50;
+}
+
+.medium-font {
+	font-size: 3vh;
+	font-weight: 50;
+}
+
+.simple-margin {
+	margin: 0 50px;
+}
+
+.showcase {
+	height: 92vh;
+	width: 100vw;
+	background: url("./img/imagem_principal.png") no-repeat center center/cover;
+}
+
+.btn {
+	background: #ffbc00;
+	color: #931818;
+	font-size: 4vh;
+	width: 10vw;
+	height: 5vh;
+	border: none;
+	border-radius: 25px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.body-content {
+	width: 100%;
+	margin: auto auto;
+	display: grid;
+	padding: 1em;
+	grid-template-columns: 7fr 3fr;
+}
+
+.ads {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.single-ad {
+	background: #ffffff;
+	border-radius: 25px;
+	padding: 20px 50px;
+	margin: 1em;
+	height: 25vh;
+}
+.introduction {
+	margin: 1em;
+	font-weight: 10;
+	background: #ffffff;
+	float: center;
+	padding: 1em;
+	display: flex;
+	color: #707070;
+	flex-direction: column;
+	align-items: flex-start;
+	border-radius: 25px;
+	/*box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);*/
+}
+.introduction h1 {
+	margin: 20px 30px;
+}
+.introduction h3 {
+	margin: 20px 30px;
+}
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.progress {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+
+.line {
+	margin: 0;
+	width: 100%;
+	height: 10vh;
+	border-radius: 25px;
+}
+.dia {
+	background: #ffbc00;
+	color: #931818;
+}
+
+.total {
+	background: #931818;
+	color: #ffbc00;
+}

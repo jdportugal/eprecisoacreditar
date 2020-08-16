@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	background: #f6f6f6;
 	color: black;
 	font-size: 15px;
@@ -24,8 +24,10 @@ a {
 /* NAV */
 
 .nav-container {
-	background-color: #931818;
+	background-color: #8d000c;
 	width: 100%;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
 }
 
 .main-nav {
@@ -33,9 +35,8 @@ a {
 	float: center;
 	align-items: center;
 	height: 8vh;
-	/*justify-content: space-around;*/
 	justify-content: space-between;
-	color: #ffbc00;
+	color: #ff9100;
 }
 
 .logo {
@@ -48,12 +49,12 @@ a {
 }
 
 .giant-font {
-	font-size: 6vh;
+	font-size: 60px;
 	font-weight: 50;
 }
 
 .medium-font {
-	font-size: 3vh;
+	font-size: 30px;
 	font-weight: 50;
 }
 
@@ -63,13 +64,13 @@ a {
 
 .showcase {
 	height: 92vh;
-	width: 100vw;
+	width: 100%;
 	background: url("./img/imagem_principal.png") no-repeat center center/cover;
 }
 
 .btn {
-	background: #ffbc00;
-	color: #931818;
+	background: #ff9100;
+	color: #8d000c;
 	font-size: 4vh;
 	width: 10vw;
 	height: 5vh;
@@ -78,7 +79,7 @@ a {
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
 .body-content {
-	width: 100%;
+	width: 80%;
 	margin: auto auto;
 	display: grid;
 	padding: 1em;
@@ -124,23 +125,55 @@ a {
 }
 
 .progress {
+	width: 80%;
+	margin: 1em auto;
+	display: grid;
+	grid-template-columns: 6fr 1fr;
+	gap: 1em;
+}
+
+.caixa {
+	width: 100%;
+	height: 10vh;
+	border-radius: 25px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 10fr 1fr;
+	align-items: center;
+	gap: 1em;
+	padding: 0 2em;
+}
+.caixa-valor {
+	width: 100%;
+	height: 10vh;
+	border-radius: 25px;
 	display: grid;
 	grid-template-columns: 1fr;
 	align-items: center;
 }
 
-.line {
-	margin: 0;
-	width: 100%;
-	height: 10vh;
-	border-radius: 25px;
-}
-.dia {
-	background: #ffbc00;
-	color: #931818;
+.caixa-dia {
+	background: #ff9100;
+	color: #8d000c;
 }
 
-.total {
-	background: #931818;
-	color: #ffbc00;
+.caixa-total {
+	background: #8d000c;
+	color: #ff9100;
+}
+
+.linha-vazia {
+	background: #000000;
+}
+
+.linha {
+	margin: 0;
+	height: 4vh;
+	border-radius: 25px;
+}
+
+.grid-item {
+	min-width: 0;
+	min-height: 0;
+	align-self: center;
+	justify-self: center;
 }

@@ -28,6 +28,7 @@ a {
 	width: 100%;
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
+	z-index: 1000;
 }
 
 .main-nav {
@@ -63,9 +64,15 @@ a {
 }
 
 .showcase {
-	height: 100vh;
 	width: 100%;
-	background: url("./img/pai2.jpg") no-repeat center center/cover;
+	margin-top: 8vh;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 92vh;
+	object-fit: cover;
+	object-position: 50% 50%;
 }
 
 .btn {
@@ -124,7 +131,7 @@ a {
 	display: inline-block;
 }
 
-.progress {
+.progresso {
 	width: 80%;
 	margin: 1em auto;
 	display: grid;
@@ -216,6 +223,9 @@ a {
 	h3 {
 		font-size: 15px;
 	}
+	h4 {
+		font-size: 20px;
+	}
 
 	.introduction h1 {
 		margin: 10px 10px;
@@ -224,7 +234,7 @@ a {
 		margin: 10px 10px;
 	}
 
-	.progress {
+	.progresso {
 		width: 90%;
 		margin: 1em auto;
 		display: grid;

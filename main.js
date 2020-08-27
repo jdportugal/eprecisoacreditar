@@ -1,5 +1,7 @@
 const password = "750750";
 
+$(".chrome").hide();
+
 $("#password").on("focusin", () => {
 	$(".arrow").css("display", "inline-flex");
 });

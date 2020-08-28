@@ -1,4 +1,4 @@
-const password = "750750";
+const password = "";
 
 $(".chrome").hide();
 

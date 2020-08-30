@@ -95,7 +95,7 @@ a {
 
 .ads {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 10fr;
+	grid-template-rows: 1fr 1fr 1fr 7fr; /*If the page gets bigger i have to be changed*/
 	align-content: flex-start;
 }
 .single-ad {
@@ -373,6 +373,12 @@ a {
 		padding: 20px 50px;
 		margin: 1em;
 		height: 25vh;
+	}
+	.ads {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr; /*If the page gets bigger i have to be changed*/
+		align-content: flex-start;
+		margin-bottom: 10vh;
 	}
 }
 /*Inicio retirar*/

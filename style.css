@@ -376,7 +376,7 @@ a {
 	}
 	.ads {
 		display: grid;
-		grid-template-rows: 1fr 1fr 1fr; /*If the page gets bigger i have to be changed*/
+		grid-template-rows: 1fr 1fr 1fr 1fr; /*If the page gets bigger i have to be changed*/
 		align-content: flex-start;
 		margin-bottom: 10vh;
 	}

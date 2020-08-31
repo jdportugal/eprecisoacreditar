@@ -59,6 +59,11 @@ a {
 	font-weight: 50;
 }
 
+.small-font {
+	font-size: 25px;
+	font-weight: 50;
+}
+
 .simple-margin {
 	margin: 0 50px;
 }
@@ -275,6 +280,11 @@ a {
 
 	.medium-font {
 		font-size: 15px;
+		font-weight: 50;
+	}
+
+	.small-font {
+		font-size: 10px;
 		font-weight: 50;
 	}
 

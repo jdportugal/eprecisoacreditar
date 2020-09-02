@@ -16,6 +16,14 @@ a {
 	text-decoration: none;
 }
 
+.light_color {
+	color: #ff9100;
+}
+
+.dark_color {
+	color: #8d000c;
+}
+
 .container {
 	width: 100%;
 	margin: auto;
@@ -52,16 +60,19 @@ a {
 .giant-font {
 	font-size: 60px;
 	font-weight: 50;
+	margin-bottom: 0rem;
 }
 
 .medium-font {
 	font-size: 30px;
 	font-weight: 50;
+	margin-bottom: 0rem;
 }
 
 .small-font {
 	font-size: 25px;
 	font-weight: 50;
+	margin-bottom: 0rem;
 }
 
 .simple-margin {
@@ -87,8 +98,9 @@ a {
 	width: 10vw;
 	height: 5vh;
 	border: none;
-	border-radius: 25px;
+	border-radius: 15px;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+	vertical-align: middle;
 }
 .body-content {
 	width: 80%;
@@ -108,6 +120,7 @@ a {
 	border-radius: 25px;
 	padding: 20px 50px;
 	margin: 1em;
+	text-align: justify;
 }
 
 .single-ad img {
@@ -136,12 +149,13 @@ a {
 	font-weight: 10;
 	background: #ffffff;
 	float: center;
-	padding: 1em;
+	padding: 2em;
 	display: flex;
 	color: #707070;
 	flex-direction: column;
 	align-items: flex-start;
 	border-radius: 25px;
+	text-align: justify;
 	/*box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);*/
 }
 .introduction h1 {
@@ -217,7 +231,7 @@ a {
 .caixa {
 	width: 100%;
 	height: 10vh;
-	border-radius: 25px;
+	border-radius: 15px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 10fr 1fr;
 	align-items: center;
@@ -228,7 +242,7 @@ a {
 .caixa-valor {
 	width: 100%;
 	height: 10vh;
-	border-radius: 25px;
+	border-radius: 15px;
 	display: grid;
 	grid-template-columns: 1fr;
 	align-items: center;
@@ -245,13 +259,13 @@ a {
 }
 
 .linha-vazia {
-	background: #000000;
+	background: #f6f6f6;
 }
 
 .linha {
 	margin: 0;
 	height: 4vh;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 .grid-item {
@@ -259,6 +273,7 @@ a {
 	min-height: 0;
 	align-self: center;
 	justify-self: center;
+	text-align: center;
 }
 
 .wrap {
@@ -276,6 +291,7 @@ a {
 	.giant-font {
 		font-size: 30px;
 		font-weight: 50;
+		margin-bottom: 0rem;
 	}
 
 	.medium-font {
@@ -297,8 +313,9 @@ a {
 		width: 30vw;
 		height: 5vh;
 		border: none;
-		border-radius: 25px;
+		border-radius: 15px;
 		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+		vertical-align: middle;
 	}
 
 	h3 {
@@ -311,22 +328,22 @@ a {
 	.introduction h1 {
 		margin: 10px 10px;
 	}
-	.introduction h3 {
+	.introduction h4 {
 		margin: 10px 10px;
 	}
 
 	.progresso {
-		width: 90%;
-		margin: 1em auto;
+		width: 95%;
+		margin: 2em auto;
 		display: grid;
 		grid-template-columns: 6fr 1fr;
-		gap: 1em;
+		gap: 0.5em;
 	}
 
 	.caixa {
 		width: 100%;
-		height: 8vh;
-		border-radius: 25px;
+		height: 6vh;
+		border-radius: 15px;
 		display: grid;
 		grid-template-columns: 2fr 1fr 10fr 1fr;
 		align-items: center;
@@ -334,20 +351,20 @@ a {
 	}
 	.caixa-valor {
 		width: 100%;
-		height: 8vh;
+		height: 6vh;
 		border-radius: 15px;
 		display: grid;
 		grid-template-rows: 1fr;
 		align-items: center;
 	}
 	.linha-vazia {
-		background: #000000;
+		background: #f6f6f6;
 	}
 
 	.linha {
 		margin: 0;
 		height: 3vh;
-		border-radius: 25px;
+		border-radius: 10px;
 	}
 
 	.center-dots-social {

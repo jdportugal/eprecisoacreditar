@@ -18,674 +18,654 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="content">
-			<div class="input-wrap">
-				<div class="wrap"></div>
-				<input
-					type="password"
-					id="password"
-					placeholder="Enter Password"
-					autocomplete="off"
-				/>
-				<button class="arrow">Go</button>
-			</div>
-			<div class="cancel-wrap"></div>
-		</div>
-
-		<div class="chrome">
-			<div class="nav-container">
-				<!----Nav-->
-				<nav class="main-nav center">
-					<div class="logo simple-margin">
-						<h1 class="giant-font">750</h1>
-						<h2 class="medium-font">Km</h2>
-					</div>
-					<h3 class="simple-margin medium-font">É Preciso Acreditar!</h3>
-					<button
-						id="donate_button"
-						class="btn simple-margin medium-font"
-						
-					>
-					<h3 class=" medium-font">Doar</h3>
-					</button>
-				</nav>
-			</div>
-
-			<div class="showcase">
-				<div
-					id="carouselExampleControls"
-					class="carousel slide"
-					data-ride="carousel"
-				>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/0.webp"
-								onerror="this.src='./img/0.jpg';";
-								style="object-position: 90% 100%";
-							/>
-						</div>
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/1.webp"
-								onerror="this.src='./img/1.jpg';";
-								style="object-position: 50% 100%";
-							/>
-						</div>
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/2.webp"
-								onerror="this.src='./img/2.jpg';";
-								style="object-position: 70% 100%";
-							/>
-						</div>
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/3.webp"
-								onerror="this.src='./img/3.jpg';";
-								style="object-position: 30% 100%";
-							/>
-						</div>
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/4.webp"
-								onerror="this.src='./img/4.jpg';";
-								style="object-position: 80% 100%";
-							/>
-						</div>
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/5.webp"
-								onerror="this.src='./img/5.jpg';";
-								style="object-position: 95% 100%";
-							/>
-						</div>
-						
-						<!--
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/pai11.webp"
-								onerror="this.src='./img/0.jp1';";
-							/>
-						</div>
-						<div class="carousel-item">
-							<div class="carousel-caption d-none d-md-block">
-								
-							</div>
-							<img
-								class="d-block w-100"
-								src="./img/pai12.webp"
-								onerror="this.src='./img/0.jp2';";
-							/>
-						</div>
-						-->
-						<a
-							class="carousel-control-prev"
-							href="#carouselExampleControls"
-							role="button"
-							data-slide="prev"
-						>
-							<span
-								class="carousel-control-prev-icon"
-								aria-hidden="true"
-							></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a
-							class="carousel-control-next"
-							href="#carouselExampleControls"
-							role="button"
-							data-slide="next"
-						>
-							<span
-								class="carousel-control-next-icon"
-								aria-hidden="true"
-							></span>
-							<span class="sr-only">Next</span>
-						</a>
-						
-					</div>
+		<div class="nav-container">
+			<!----Nav-->
+			<nav class="main-nav center">
+				<div class="logo simple-margin">
+					<h1 class="giant-font">750</h1>
+					<h2 class="medium-font">Km</h2>
 				</div>
-			</div>
-			<!--Pontos-->
-			<div class="center-dots">
-				<div class="dot"></div>
-				<div class="dot"></div>
-				<div class="dot"></div>
-				<div class="dot"></div>
-			</div>
-
-			<!--Barras de progresso-->
-			<div class="progresso">
-				<div class="caixa caixa-dia">
-					<div class="medium-font grid-item">Dia</div>
-					<div class="grid-item">0 Km</div>
-					<div class="linha linha-vazia">
-						<div
-							class="linha caixa-total"
-							style="
-								width: 55%;
-								display: flex;
-								align-items: center;
-								justify-content: flex-end;
-							"
-						>
-						<h3 class="small-font" style="width:100%;text-align: center;margin:0 auto">25Km</h3>
-						</div>
-					</div>
-					<div class="grid-item">50 Km</div>
-				</div>
-				<div class="caixa-dia caixa-valor">
-					<div class="grid-item medium-font">1€</div>
-				</div>
-				<div class="caixa caixa-total">
-					<div class="medium-font grid-item">Total</div>
-					<div class="grid-item ">0 Km</div>
-					<div class="linha linha-vazia">
-						<div
-							class="linha caixa-dia"
-							style="
-								width: 25%;
-								display: flex;
-								align-items: center;
-							"
-						>
-							<h3 class="small-font" style="width:100%;text-align: center;margin:0 auto">25Km</h3>
-						</div>
-					</div>
-					<div class="grid-item">750 Km</div>
-				</div>
-				<div class="caixa-total caixa-valor">
-					<div class="grid-item medium-font">1€</div>
-				</div>
-			</div>
-
-			<!--Links-->
-			<div class="center-dots-social">
+				<h3 class="simple-margin medium-font">É Preciso Acreditar!</h3>
 				<button
-					class="social-dot"
-					onclick="window.open('https://www.facebook.com/epreciso.acreditar.98','_blank')"
-				>
-					<i class="fa">&#xf09a;</i>
-				</button>
-
-				<div class="acreditar-logo">
-					<img src="./img/acreditar.webp" onerror="this.src='./img/acreditar.png';"; alt="Second slide" />
-				</div>
-
-				<button
-					class="social-dot"
-					onclick="window.open('https://www.instagram.com/eprecisoacreditar750/','_blank')"
-				>
-					<i class="fa">&#xf16d;</i>
-				</button>
-				<!--
-				<button class="social-dot">
-					<i style="font-size: 48px; margin: auto auto" class="material-icons"
-						>&#xe0be;</i
-					>
+					id="donate_button"
+					class="btn simple-margin medium-font"
 					
+				>
+				<h4 class=" medium-font">Doar</h4>
 				</button>
-				-->
-			</div>
-
-			<!--Posts-->
-			<div class="body-content center">
-				<div classe="ads">
-					<div class="introduction">
-						<div class="giant-font" style="color: #ff9100">A Ideia</div>
-						<h4>
-							Conciliar uma actividade de perseverança e de alguma exigência
-							física, com uma recolha de fundos solidária, vai sendo uma prática
-							cada vez mais habitual, tanto pelo mundo fora como no nosso país.
-							Quero <span style="color:#8d000c">acreditar</span> que estes pequenos gestos e iniciativas
-							individuais são um bom contributo para a sociedade em geral e para as instituições solidárias em particular, já que estas
-							sobrevivem essencialmente graças aos donativos angariados.<br /><br />
-
-							<!--Conjugar uma actividade física mais ou menos extrema,
-							com a recolha de fundos para uma instituição de solidariedade
-							social, é uma prática cada vez mais comum pelo mundo fora e também
-							em Portugal.<br /><br />-->
-
-							Neste contexto e porque são duas causas (a solidariedade e a
-							actividade física) com muito significado para mim, considerei
-							pertinente realizar a iniciativa “É Preciso Acreditar” a qual se
-							pode resumir do seguinte modo:<br /><br />
-
-							1-Efectuar uma caminhada individual e solidária, desde a fronteira
-							norte de Portugal até ao litoral algarvio, na distância total de
-							750 Km.<br /><br />
-
-							2- Fazer um donativo pessoal de 1€ por cada um dos Km que percorrer, o que dará 750€ no final.
-							<br /><br />
-
-							3-Convidar familiares, amigos, colegas, conhecidos, cidadãos
-							solidários e entidades em geral a fazerem um donativo à
-							<a href="https://www.acreditar.org.pt/pt">Acreditar</a> (Associação de Pais e Amigos de Crianças com Cancro)
-							com um valor por cada Km que eu efectuar. <br />
-							Permito-me sugerir 1 cêntimo por Km ou seja 7,5€ pela conclusão do
-							percurso.<br /><br />
-
-						
-
-							O percurso será feito em etapas de 50Km diários.<br /><br />
-							Terá o seu início no dia 12 de Setembro, em Rio de Onor (na fronteira
-							Norte Portugal/Espanha), passará pelas capitais de distrito mais
-							interiores (Bragança, Guarda, Castelo Branco, Portalegre, Évora,
-							Beja) e terminará em Faro no dia 27 de Setembro (vide
-							itinerário).<br /><br />
-
-							Os encargos e ónus da iniciativa serão única e exclusivamente de
-							minha responsabilade pessoal e não será imputado qualquer custo à
-							Associação.<br /><br />
-
-							Os donativos serão feitos directamente para uma conta da
-							<a href="https://www.acreditar.org.pt/pt">Acreditar</a> e toda e qualquer verba recebida será para uso exclusivo das
-							suas actividades de apoio às crianças e famílias a passarem por
-							momentos menos bons. <br /><br />
-
-							Gostaria finalmente, de solicitar que partilhassem a iniciativa
-							com o maior número de pessoas e entidades (p.ex empresas) de modo
-							a fazermos uma bola-de-neve de donativos.<br /><br />
-
-							Desde já os meus agradecimentos <br />
-							<br />
-
-							<p style="color: #8d000c; text-align: right;">Carlos Ferreira</p>
-							<p style="color: #8d000c; text-align: right;">     . . . .</p>
-							<br/>
-							<br />
-							...e quem sabe não nos encontraremos por esse Portugal fora?<br />
-							<br />
-						</h4>
-					</div>
-					<!--Dias-->
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">Mapa do percurso</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Rio de Onor (Bragança)</h3>
-							</div>
-							<div>
-								<h3>Fim: Faro</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1nnLB5Z7RnQ49e4CbzT9uh6Q8RjJcGYuf&z=7&ll=39.721382, -7.925799"
-								width="100%"
-								height="800"
-							></iframe>
-						</div>
-					</div>
-					<!--Dia 1-->
-
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">1º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Perto de Rio de Onor</h3>
-							</div>
-							<div>
-								<h3>Fim: Salsas</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=19UrYr-tqQmjlGfgkL-oGEkp6Gk8gub_D&ll=41.7910723761005%2C-6.801294332024184&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">2º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Salsas</h3>
-							</div>
-							<div>
-								<h3>Fim: Alfândega da Fé</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=122ZEOb6OuwIXX4GVEKpa3CPwanKIajdN&ll=41.48879046816459%2C-7.013976987124582&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">3º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Alfândega da Fé</h3>
-							</div>
-							<div>
-								<h3>Fim: Muxagata</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1tkFgUGokIsfxfG8kNxc_zb_CIBzq2pF_&ll=41.202139733263536%2C-7.2264288435542445&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">4º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Muxagata</h3>
-							</div>
-							<div>
-								<h3>Fim: Rocamondo</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1dlnFVxB8koqgDFx2W8-iJE2cY87HHMGs&ll=40.87038691123556%2C-7.462643372238629&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">5º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Rocamondo</h3>
-							</div>
-							<div>
-								<h3>Fim: Santo Estevão</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1IpWq9sL3_Hg4uNuz_ofAZqOV1CjAFsfp&ll=40.49653336130982%2C-7.2704872094544655&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">6º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Santo Estevão</h3>
-							</div>
-							<div>
-								<h3>Fim: São Miguel de Acha</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1_0j4zdP8dA0hvaNyBbJfF-0cZG1KhRZm&ll=40.19073414217382%2C-7.264552981809889&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">7º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: São Miguel de Acha</h3>
-							</div>
-							<div>
-								<h3>Fim: Vila Velha de Rodão</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=19SnsddLSq-K0y5rGqo0rkP0QdMi4TdQC&ll=39.800678729027446%2C-7.655895373179709&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">8º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Vila Velha de Rodão</h3>
-							</div>
-							<div>
-								<h3>Fim: Galocha</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1_VlRIcCnBIwU6C0BLkIJYZg-xXZ0skxD&ll=39.4910426235507%2C-7.658828238378749&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">9º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Galocha</h3>
-							</div>
-							<div>
-								<h3>Fim: Fronteira</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=16DPAHPE1Dk4kdGwVRhicw4_1ltv_1tzu&ll=39.217017880782024%2C-7.704214751762164&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">10º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Fronteira</h3>
-							</div>
-							<div>
-								<h3>Fim: Igrejinha</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1Az_l_8VH5rrmsfjGNLKGx90cb6Avp1-F&ll=38.86987360847405%2C-7.895685256331701&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">11º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Igrejinha</h3>
-							</div>
-							<div>
-								<h3>Fim: Viana do Alentejo</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1lJEgWzpdK8modtg96x06NpehL8u9ebrv&ll=38.57351891529866%2C-8.001977625317977&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">12º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Viana do Alentejo</h3>
-							</div>
-							<div>
-								<h3>Fim: Penedo Gordo</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1hqtWY_30kRWaK6m7CmTKkdYthvPeS40Y&ll=38.21013951535908%2C-7.974224359364648&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">13º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Penedo Gordo</h3>
-							</div>
-							<div>
-								<h3>Fim: Rosário</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=118UzwBbugV1CMjwqV3ygbvkrdqa_wPOX&ll=37.83046588407514%2C-8.022768675690575&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">14º dia de caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Rosário</h3>
-							</div>
-							<div>
-								<h3>Fim: Salir</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1CqDqmUElNIBaZe8eEBU7d1eUa9dHLLFE&ll=37.405683660638424%2C-8.141007681198154&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-					<div class="introduction">
-						<h1 class="giant-font" style="color: #ff9100">15º Dia de Caminhada</h1>
-						<div class="wrap">
-							<div>
-								<h3>Início: Salir</h3>
-							</div>
-							<div>
-								<h3>Fim: Doca de Faro</h3>
-							</div>
-						</div>
-						<div class="wrap">
-							<iframe
-								src="https://www.google.com/maps/d/embed?mid=1dguH5_8LkadFuolQyVX75eonJZcsc_nv&ll=37.10430260302498%2C-8.038405899585623&z=10"
-								width="100%"
-								height="500"
-							></iframe>
-						</div>
-					</div>
-				</div>
-				<div class="ads">
-					<div class="single-ad">
-						<h2 style="color: #ff9100">Agradecimentos</h2>
-						<br></br>
-						<h4 style="color: #707070" ;>
-							Agradecemos a todas as entidades que colaboraram/colaborarão na
-							divulgação do projecto:
-						</h4>
-					</div>
-
-					<div class="single-ad">
-						<img src="./img/of.webp" onerror="this.src='./img/of.jpg';"; alt="Second slide" />
-					</div>
-					<div class="single-ad">
-						<img src="./img/plural.webp" onerror="this.src='./img/plural.jpg';"; alt="Second slide" />
-					</div>
-					<div class="single-ad">
-						<img src="./img/bemyguest.webp" onerror="this.src='./img/bemyguest.png';"; alt="Second slide" />
-					</div>
-					<div class="single-ad">
-						<img src="./img/elofarma.webp" onerror="this.src='./img/elofarma.png';"; alt="Second slide" />
-					</div>
-					<div class="single-ad">
-						<img src="./img/bemboa.webp" onerror="this.src='./img/bemboa.jpg';"; alt="Second slide" />
-					</div>
-					<div></div>
-				</div>
-			</div>
-			<!---
-		<div style="display: flex; justify-content: center;">
-			<iframe
-				src="https://www.google.com/maps/d/embed?mid=1FXf9BtPyRLWKqe3ZoxMJVCo3J_Qz4cO-"
-				width="50%"
-				height="1000"
-			></iframe>
-        </div>
-		-->
-			<script
-				src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-				integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-				crossorigin="anonymous"
-			></script>
-			<script
-				src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-				integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-				crossorigin="anonymous"
-			></script>
-			<script
-				src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-				integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-				crossorigin="anonymous"
-			></script>
+			</nav>
 		</div>
-		<script src="main.js"></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=UA-176565545-1"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
 
-			gtag("config", "UA-176565545-1");
-		</script>
+		<div class="showcase">
+			<div
+				id="carouselExampleControls"
+				class="carousel slide"
+				data-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/0.webp"
+							onerror="this.src='./img/0.jpg';";
+							style="object-position: 90% 100%";
+						/>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/1.webp"
+							onerror="this.src='./img/1.jpg';";
+							style="object-position: 50% 100%";
+						/>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/2.webp"
+							onerror="this.src='./img/2.jpg';";
+							style="object-position: 70% 100%";
+						/>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/3.webp"
+							onerror="this.src='./img/3.jpg';";
+							style="object-position: 30% 100%";
+						/>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/4.webp"
+							onerror="this.src='./img/4.jpg';";
+							style="object-position: 80% 100%";
+						/>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/5.webp"
+							onerror="this.src='./img/5.jpg';";
+							style="object-position: 95% 100%";
+						/>
+					</div>
+					
+					<!--
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/pai11.webp"
+							onerror="this.src='./img/0.jp1';";
+						/>
+					</div>
+					<div class="carousel-item">
+						<div class="carousel-caption d-none d-md-block">
+							
+						</div>
+						<img
+							class="d-block w-100"
+							src="./img/pai12.webp"
+							onerror="this.src='./img/0.jp2';";
+						/>
+					</div>
+					-->
+					<a
+						class="carousel-control-prev"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="prev"
+					>
+						<span
+							class="carousel-control-prev-icon"
+							aria-hidden="true"
+						></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a
+						class="carousel-control-next"
+						href="#carouselExampleControls"
+						role="button"
+						data-slide="next"
+					>
+						<span
+							class="carousel-control-next-icon"
+							aria-hidden="true"
+						></span>
+						<span class="sr-only">Next</span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		<!--Pontos-->
+		<div class="center-dots">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+		</div>
+
+		<!--Barras de progresso-->
+		<div class="progresso">
+			<div class="caixa caixa-dia">
+				<div class="medium-font grid-item">Dia</div>
+				<div class="grid-item">0 Km</div>
+				<div class="linha linha-vazia">
+					<div
+						class="linha caixa-total"
+						style="
+							width: 55%;
+							display: flex;
+							align-items: center;
+							justify-content: flex-end;
+						"
+					>
+					<h3 class="small-font" style="width:100%;text-align: center;margin:0 auto">25Km</h3>
+					</div>
+				</div>
+				<div class="grid-item">50 Km</div>
+			</div>
+			<div class="caixa-dia caixa-valor">
+				<div class="grid-item medium-font">1€</div>
+			</div>
+			<div class="caixa caixa-total">
+				<div class="medium-font grid-item">Total</div>
+				<div class="grid-item ">0 Km</div>
+				<div class="linha linha-vazia">
+					<div
+						class="linha caixa-dia"
+						style="
+							width: 25%;
+							display: flex;
+							align-items: center;
+						"
+					>
+						<h3 class="small-font" style="width:100%;text-align: center;margin:0 auto">25Km</h3>
+					</div>
+				</div>
+				<div class="grid-item">750 Km</div>
+			</div>
+			<div class="caixa-total caixa-valor">
+				<div class="grid-item medium-font">1€</div>
+			</div>
+		</div>
+
+		<!--Links-->
+		<div class="center-dots-social">
+			<button
+				class="social-dot"
+				onclick="window.open('https://www.facebook.com/epreciso.acreditar.98','_blank')"
+			>
+				<i class="fa">&#xf09a;</i>
+			</button>
+
+			<div class="acreditar-logo">
+				<img src="./img/acreditar.webp" onerror="this.src='./img/acreditar.png';"; alt="Second slide" />
+			</div>
+
+			<button
+				class="social-dot"
+				onclick="window.open('https://www.instagram.com/eprecisoacreditar750/','_blank')"
+			>
+				<i class="fa">&#xf16d;</i>
+			</button>
+			<!--
+			<button class="social-dot">
+				<i style="font-size: 48px; margin: auto auto" class="material-icons"
+					>&#xe0be;</i
+				>
+				
+			</button>
+			-->
+		</div>
+
+		<!--Posts-->
+		<div class="body-content center">
+			<div classe="ads">
+				<div class="introduction">
+					<div class="giant-font" style="color: #ff9100">A Ideia</div>
+					<h4>
+						Conciliar uma actividade de perseverança e de alguma exigência
+						física, com uma recolha de fundos solidária, vai sendo uma prática
+						cada vez mais habitual, tanto pelo mundo fora como no nosso país.
+						Quero <span style="color:#8d000c">acreditar</span> que estes pequenos gestos e iniciativas
+						individuais são um bom contributo para a sociedade em geral e para as instituições solidárias em particular, já que estas
+						sobrevivem essencialmente graças aos donativos angariados.<br /><br />
+
+						Neste contexto e porque são duas causas (a solidariedade e a
+						actividade física) com muito significado para mim, considerei
+						pertinente realizar a iniciativa “É Preciso Acreditar” a qual se
+						pode resumir do seguinte modo:<br /><br />
+
+						1- Efectuar uma caminhada individual e solidária, desde a fronteira
+						norte de Portugal até ao litoral algarvio, na distância total de
+						750 Km.<br /><br />
+
+						2- Fazer um donativo pessoal de 1€ por cada um dos Km que percorrer, o que dará 750€ no final.
+						<br /><br />
+
+						3- Convidar familiares, amigos, colegas, cidadãos
+						solidários e entidades em geral a fazerem um donativo à
+						<a href="https://www.acreditar.org.pt/pt">Acreditar</a> (Associação de Pais e Amigos de Crianças com Cancro)
+						com um valor por cada Km que eu efectuar. <br />
+						Permito-me sugerir 1 cêntimo por Km ou seja 7,5€ pela conclusão do
+						percurso.<br /><br />
+
+					
+
+						O percurso será feito em etapas de 50Km diários.<br /><br />
+						Terá o seu início no dia 12 de Setembro, em Rio de Onor (na fronteira
+						Norte Portugal/Espanha), passará pelas capitais de distrito mais
+						interiores (Bragança, Guarda, Castelo Branco, Portalegre, Évora,
+						Beja) e terminará em Faro no dia 27 de Setembro (vide
+						itinerário).<br /><br />
+
+						Os encargos e ónus da iniciativa serão única e exclusivamente de
+						minha responsabilade pessoal e não será imputado qualquer custo à
+						Associação.<br /><br />
+
+						Os donativos serão feitos directamente para uma conta da
+						<a href="https://www.acreditar.org.pt/pt">Acreditar</a> e toda e qualquer verba recebida será para uso exclusivo das
+						suas actividades de apoio às crianças e famílias a passarem por
+						momentos menos bons. <br /><br />
+
+						Gostaria finalmente, de solicitar que partilhassem a iniciativa
+						com o maior número de pessoas e entidades (p.ex empresas) de modo
+						a fazermos uma bola-de-neve de donativos.<br /><br />
+
+						Desde já os meus agradecimentos <br />
+						<br />
+
+						<p style="color: #8d000c; text-align: right;">Carlos Ferreira</p>
+						<p style="color: #8d000c; text-align: right;">     . . . .</p>
+						<br/>
+						<br />
+						...e quem sabe não nos encontraremos por esse Portugal fora?<br />
+						<br />
+					</h4>
+				</div>
+				<!--Dias-->
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">Mapa do percurso</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Rio de Onor (Bragança)</h3>
+						</div>
+						<div>
+							<h3>Fim: Faro</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1nnLB5Z7RnQ49e4CbzT9uh6Q8RjJcGYuf&z=7&ll=39.721382, -7.925799"
+							width="100%"
+							height="800"
+						></iframe>
+					</div>
+				</div>
+				<!--Dia 1-->
+
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">1º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Perto de Rio de Onor</h3>
+						</div>
+						<div>
+							<h3>Fim: Salsas</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=19UrYr-tqQmjlGfgkL-oGEkp6Gk8gub_D&ll=41.7910723761005%2C-6.801294332024184&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">2º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Salsas</h3>
+						</div>
+						<div>
+							<h3>Fim: Alfândega da Fé</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=122ZEOb6OuwIXX4GVEKpa3CPwanKIajdN&ll=41.48879046816459%2C-7.013976987124582&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">3º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Alfândega da Fé</h3>
+						</div>
+						<div>
+							<h3>Fim: Muxagata</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1tkFgUGokIsfxfG8kNxc_zb_CIBzq2pF_&ll=41.202139733263536%2C-7.2264288435542445&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">4º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Muxagata</h3>
+						</div>
+						<div>
+							<h3>Fim: Rocamondo</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1dlnFVxB8koqgDFx2W8-iJE2cY87HHMGs&ll=40.87038691123556%2C-7.462643372238629&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">5º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Rocamondo</h3>
+						</div>
+						<div>
+							<h3>Fim: Santo Estevão</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1IpWq9sL3_Hg4uNuz_ofAZqOV1CjAFsfp&ll=40.49653336130982%2C-7.2704872094544655&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">6º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Santo Estevão</h3>
+						</div>
+						<div>
+							<h3>Fim: São Miguel de Acha</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1_0j4zdP8dA0hvaNyBbJfF-0cZG1KhRZm&ll=40.19073414217382%2C-7.264552981809889&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">7º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: São Miguel de Acha</h3>
+						</div>
+						<div>
+							<h3>Fim: Vila Velha de Rodão</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=19SnsddLSq-K0y5rGqo0rkP0QdMi4TdQC&ll=39.800678729027446%2C-7.655895373179709&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">8º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Vila Velha de Rodão</h3>
+						</div>
+						<div>
+							<h3>Fim: Galocha</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1_VlRIcCnBIwU6C0BLkIJYZg-xXZ0skxD&ll=39.4910426235507%2C-7.658828238378749&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">9º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Galocha</h3>
+						</div>
+						<div>
+							<h3>Fim: Fronteira</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=16DPAHPE1Dk4kdGwVRhicw4_1ltv_1tzu&ll=39.217017880782024%2C-7.704214751762164&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">10º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Fronteira</h3>
+						</div>
+						<div>
+							<h3>Fim: Igrejinha</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1Az_l_8VH5rrmsfjGNLKGx90cb6Avp1-F&ll=38.86987360847405%2C-7.895685256331701&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">11º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Igrejinha</h3>
+						</div>
+						<div>
+							<h3>Fim: Viana do Alentejo</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1lJEgWzpdK8modtg96x06NpehL8u9ebrv&ll=38.57351891529866%2C-8.001977625317977&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">12º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Viana do Alentejo</h3>
+						</div>
+						<div>
+							<h3>Fim: Penedo Gordo</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1hqtWY_30kRWaK6m7CmTKkdYthvPeS40Y&ll=38.21013951535908%2C-7.974224359364648&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">13º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Penedo Gordo</h3>
+						</div>
+						<div>
+							<h3>Fim: Rosário</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=118UzwBbugV1CMjwqV3ygbvkrdqa_wPOX&ll=37.83046588407514%2C-8.022768675690575&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">14º dia de caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Rosário</h3>
+						</div>
+						<div>
+							<h3>Fim: Salir</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1CqDqmUElNIBaZe8eEBU7d1eUa9dHLLFE&ll=37.405683660638424%2C-8.141007681198154&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+				<div class="introduction">
+					<h1 class="giant-font" style="color: #ff9100">15º Dia de Caminhada</h1>
+					<div class="wrap">
+						<div>
+							<h3>Início: Salir</h3>
+						</div>
+						<div>
+							<h3>Fim: Doca de Faro</h3>
+						</div>
+					</div>
+					<div class="wrap">
+						<iframe
+							src="https://www.google.com/maps/d/embed?mid=1dguH5_8LkadFuolQyVX75eonJZcsc_nv&ll=37.10430260302498%2C-8.038405899585623&z=10"
+							width="100%"
+							height="500"
+						></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="ads">
+				<div class="single-ad">
+					<h2 style="color: #ff9100">Agradecimentos</h2>
+					<br></br>
+					<h4 style="color: #707070" ;>
+						Agradecemos a todas as entidades que colaboraram/colaborarão na
+						divulgação do projecto:
+					</h4>
+				</div>
+
+				<div class="single-ad">
+					<img src="./img/of.webp" onerror="this.src='./img/of.jpg';"; alt="Second slide" />
+				</div>
+				<div class="single-ad">
+					<img src="./img/plural.webp" onerror="this.src='./img/plural.jpg';"; alt="Second slide" />
+				</div>
+				<div class="single-ad">
+					<img src="./img/bemyguest.webp" onerror="this.src='./img/bemyguest.png';"; alt="Second slide" />
+				</div>
+				<div class="single-ad">
+					<img src="./img/elofarma.webp" onerror="this.src='./img/elofarma.png';"; alt="Second slide" />
+				</div>
+				<div class="single-ad">
+					<img src="./img/bemboa.webp" onerror="this.src='./img/bemboa.jpg';"; alt="Second slide" />
+				</div>
+				<div></div>
+			</div>
+		</div>
+		<!---
+	<div style="display: flex; justify-content: center;">
+		<iframe
+			src="https://www.google.com/maps/d/embed?mid=1FXf9BtPyRLWKqe3ZoxMJVCo3J_Qz4cO-"
+			width="50%"
+			height="1000"
+		></iframe>
+	</div>
+	-->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+	</div>
+	<script src="main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script
+		async
+		src="https://www.googletagmanager.com/gtag/js?id=UA-176565545-1"
+	></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+
+		gtag("config", "UA-176565545-1");
+	</script>
 	</body>
 </html>

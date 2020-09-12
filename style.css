@@ -66,7 +66,13 @@ a {
 .medium-font {
 	font-size: 30px;
 	font-weight: 50;
-	margin-bottom: 0rem;
+
+	/*margin-bottom: 0rem;*/
+}
+
+.btn .medium-font {
+	font-size: 25px;
+	margin-bottom: 5rem;
 }
 
 .small-font {
@@ -283,6 +289,15 @@ a {
 	justify-content: space-between;
 }
 
+@media (max-width: 900px) {
+	.medium-font {
+		font-size: 20px;
+		font-weight: 50;
+	}
+	.btn .medium-font {
+		margin-bottom: 2rem;
+	}
+}
 @media (max-width: 700px) {
 	.body-content {
 		width: 100%;
@@ -291,6 +306,9 @@ a {
 	.giant-font {
 		font-size: 30px;
 		font-weight: 50;
+		margin-bottom: 0rem;
+	}
+	.btn .medium-font {
 		margin-bottom: 0rem;
 	}
 
